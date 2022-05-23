@@ -1,0 +1,52 @@
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color:#212121;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+li {
+    float:right;
+}
+li a{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:5px 32px;
+    margin:40px;
+    text-decoration:none;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size:20px;
+}
+
+
+.header {
+    margin-top:120px;
+    margin-left:100px;
+    position: absolute; 
+    background-color:black;
+    width:1300px;
+}
+.wrapper { 
+    width:600px;
+    height:600px;
+    background-image: url(kaos2.jpg);
+    background-size:600px 600px;
+    z-index:-2
+    
+    
+}
+.wrapper2 {
+    z-index:1;
+    position:absolute;
+    width:600px;
+    height:600px;
+    transition: all 0.8s ease;
+}
+.wrapper2:hover {
+    transform: translate(450px, 0px);
+    opacity: 0;
+}
